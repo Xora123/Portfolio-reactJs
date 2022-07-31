@@ -1,4 +1,4 @@
-import LogoTitle from '../../assets/images/logo-3.png';
+import LogoTitle from '../../assets/images/Le-S.png';
 import { Link } from 'react-router-dom'
 import './index.scss';
 
@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <div className="container home-page">
             <div className="text-zone">
-                <h1>Bonjour, <br /> Je suis  Kélian 
+                <h1>Bonjour, <br /> Je suis  Kélian  
                 <img src={LogoTitle} alt="dev" />
                tuckens
                 <br />
