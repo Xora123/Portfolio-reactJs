@@ -38,8 +38,10 @@
   animation-delay: 1s;
 }
 
-.about-page {
-  h1 {
+.about-page, 
+.contact-page 
+{
+ h1 {
     font-size: 53px;
     font-family: 'Coolvetica';
     color: #ffd700;
@@ -109,4 +111,6 @@
       color: #fff;
     }
   }
+
+
 }

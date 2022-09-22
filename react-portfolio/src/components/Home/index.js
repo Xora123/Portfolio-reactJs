@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import AnimatedLetters from '../AnimatedLetters';
 import React, { useEffect, useState } from "react";
 import Logo from './Logo';
+import Loader from 'react-loaders'
 import './index.scss';
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
 
       
     return (
+        <>
         <div className="container home-page">
             <div className="text-zone">
                 <h1>
@@ -61,6 +63,8 @@ const Home = () => {
             </div>
             <Logo />
         </div>
+        <Loader type="pacman"/>
+        </>
     )
 }
 
